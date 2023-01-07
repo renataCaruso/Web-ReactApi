@@ -1,8 +1,4 @@
 import { createContext, useState } from "react";
-
-//export const AlunoContext = createContext();
-
-
 export const TemaContext = createContext();
 export const TemaProvider = ({children}) => {
   const [temaSelecionado, setTemaSelecionado] = useState(

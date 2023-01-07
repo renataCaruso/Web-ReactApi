@@ -68,7 +68,7 @@ const AlunosListagem = () => {
     navigate(`/editar-alunos/${aluno.id}`);
   };
 
-  // SE FOSSE USAR A ABSTRAÇÃO (aula 4)
+  // SE FOSSE USAR A ABSTRAÇÃO 
   // const listaCampos = [
   //   "nome",
   //   "idade",

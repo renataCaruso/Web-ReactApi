@@ -37,7 +37,7 @@ const CadastrarAlunos = () => {
         id,
         nome,
         idade,
-        cidade
+        cidade,
       }).then((response) => {
         console.log(response);
         if (response.status === 200) {
